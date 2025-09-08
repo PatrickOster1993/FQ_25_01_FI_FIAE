@@ -1,2 +1,9 @@
-# FQ_25_01_FI_FIAE
-Fachqualifikation
+# Fachqualifikation
+
+## Was wie und wo?
+
+erstellen Sie sich nach dem Klonen eine eigene Branch mit ihrem Namen
+
+```sh
+git branch IhrName
+```
