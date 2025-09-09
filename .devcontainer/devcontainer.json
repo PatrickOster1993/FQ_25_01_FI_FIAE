@@ -1,0 +1,17 @@
+{
+	"name": "Python Development",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "python_app",
+	"workspaceFolder": "/app",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				// Lege den Standard-Interpreter-Pfad auf das venv im Container fest
+				"python.defaultInterpreterPath": "/opt/venv/bin/python",
+				"python.linting.pylintEnabled": true,
+				"python.linting.enabled": true
+			},
+			"extensions": ["ms-python.python", "ms-python.vscode-pylance"]
+		}
+	}
+}

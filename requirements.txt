@@ -1,0 +1,6 @@
+# Beispiel-Abhängigkeiten
+fastapi
+uvicorn
+pandas
+numpy
+tensorflow

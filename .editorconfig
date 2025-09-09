@@ -1,0 +1,20 @@
+# http://editorconfig.org
+
+root = true
+
+[*]
+# Grundlegende Einstellungen für alle Dateien
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+[*.md]
+# Spezielle Einstellungen für Markdown-Dateien
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.py]
+# Spezielle Einstellungen für Python-Dateien
+indent_size = 4
